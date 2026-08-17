@@ -1,0 +1,30 @@
+git clone https://github.com/sohan612/Software_Engineering_02.git
+cd Software_Engineering_02
+git config user.name "Sohan"
+git config user.email "GitHub email"
+git checkout feature/C1
+git pull origin feature/C1
+
+
+for new add....like:C-2
+
+
+git clone https://github.com/sohan612/Software_Engineering_02.git
+cd Software_Engineering_02
+
+git config user.name "Sohan"
+git config user.email " GitHub email"
+
+git checkout dev
+git pull origin dev
+
+git checkout -b feature/C2
+
+echo "## C2: Student Profile" >> PROJECT_FEATURES.md
+echo "This task involves creating a student profile feature for students." >> PROJECT_FEATURES.md
+echo "**Status: Implemented**" >> PROJECT_FEATURES.md
+echo "" >> PROJECT_FEATURES.md
+
+git add PROJECT_FEATURES.md
+git commit -m "feat: implement student profile (C2)"
+git push -u origin feature/C2
